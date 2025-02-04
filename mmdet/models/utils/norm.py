@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from mmpretrain.registry import MODELS
+from mmdet.registry import MODELS
 
 
 @MODELS.register_module()
